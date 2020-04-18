@@ -17,6 +17,12 @@
 			<organization>Faculty of Informatics, University of Debrecen</organization>
 			<organizationUrl>https://www.inf.unideb.hu/</organizationUrl>
 		</developer>
+		<developer>
+			<name>Dávid Bence</name>
+			<email>dbeni3@mailbox.unideb.hu</email>
+			<organization>Faculty of Informatics, University of Debrecen</organization>
+			<organizationUrl>https://www.inf.unideb.hu/</organizationUrl>
+		</developer>
 	</developers>
 	<dependencies>
 		<dependency>

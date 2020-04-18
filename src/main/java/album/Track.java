@@ -9,8 +9,9 @@ import lombok.Data;
 @XmlAccessorType(XmlAccessType.FIELD)
 @AllArgsConstructor
 @NoArgsConstructor
-@Data
+@lombok.Data
 public class Track {
+
 
     @XmlValue
     private String title;
@@ -18,4 +19,20 @@ public class Track {
     @XmlAttribute
     private int length;
 
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public int getLength() {
+        return length;
+    }
+
+    public void setLength(int length) {
+        this.length = length;
+    }
 }
